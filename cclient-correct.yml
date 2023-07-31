@@ -2,6 +2,6 @@ spring:
   config:
     activate:
       on-profile: "correct"
-  profiles:
-    group:
-      "correct": "test1"
+#  profiles:
+#    group:
+#      "correct": "test1"
