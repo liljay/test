@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    include: "wrong"
+---
+spring.profiles: "wrong"
+spring.profiles.include: "test1,test2"
+test: "aaaa"
+---
+spring:
+  profiles: "test1"
+test: "bbbb"
+---
+spring:
+  profiles: "test2"
+test: "cccc"
