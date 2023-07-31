@@ -2,9 +2,6 @@ spring:
   profiles:
     group:
       correct: "test2,test1"
-  datasource:
-    username: "proddbuser"
-    password: "proddbpass"      
 ---
 spring:
   config:
