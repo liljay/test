@@ -1,1 +1,5 @@
-test: message
+spring:
+  profiles: "local"
+secret: "aaaa"
+---
+
