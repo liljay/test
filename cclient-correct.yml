@@ -1,7 +1,7 @@
 spring:
   profiles:
     group:
-      correct: "test2,test1"
+      "correct": "test2,test1"
 ---
 spring:
   config:
