@@ -5,13 +5,13 @@ spring:
   profiles:
     group:
       "correct": "test1,test2"
-test: "aaaa"
+#test: "aaaa"
 ---
 spring:
   config:
     activate:
       on-profile: "test1"
-test: "bbbb"
+#test: "bbbb"
 ---
 spring:
   config:
