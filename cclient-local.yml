@@ -3,7 +3,8 @@ spring:
     activate:
       on-profile: "local"
   profiles:
-    include: "metrics"
+    group:
+      local: "metrics"
 ---
 spring:
   config:
