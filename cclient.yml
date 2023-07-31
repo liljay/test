@@ -2,9 +2,8 @@ spring:
   profiles:
     active: "local"
 ---
-spring:
-  profiles: "local"
-    include: "test1,test2"
+spring.profiles: "local"
+spring.profiles.include: "test1,test2"
 test: "aaaa"
 ---
 spring:
