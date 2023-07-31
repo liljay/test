@@ -4,7 +4,7 @@ spring:
       on-profile: "correct"
   profiles:
     group:
-      correct: "test1,test2"
+      correct: "test2,test1"
 #  datasource:
 #    username: "proddbuser"
 #    password: "proddbpass"      
