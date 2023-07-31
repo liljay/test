@@ -4,3 +4,9 @@ spring:
       on-profile: "local"
   profiles:
     include: "metrics"
+---
+spring:
+  config:
+    activate:
+      on-profile: "metrics"
+test: "aaa"
