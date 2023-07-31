@@ -5,3 +5,6 @@ spring:
   datasource:
     username: "proddbuser1"
     password: "proddbpass1"
+  profiles:
+    group:
+      "correct": "test1"
