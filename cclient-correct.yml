@@ -5,17 +5,22 @@ spring:
   profiles:
     group:
       "correct": "test1,test2"
-#test: "aaaa"
+  datasource:
+    username: "proddbuser"
+    password: "proddbpass"
 ---
 spring:
   config:
     activate:
       on-profile: "test1"
-#test: "bbbb"
+  datasource:
+    username: "proddbuser1"
+    password: "proddbpass1"
 ---
 spring:
   config:
     activate:
       on-profile: "test2"
-test: "cccc"
-
+  datasource:
+    username: "proddbuser2"
+    password: "proddbpass2"
