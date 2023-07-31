@@ -1,5 +1,6 @@
 spring:
-  profiles: "local"
-secret: "aaaa"
----
-
+  config:
+    activate:
+      on-profile: "local"
+  profiles:
+    include: "metrics"
