@@ -1,0 +1,7 @@
+spring:
+  config:
+    activate:
+      on-profile: "test1"
+  datasource:
+    username: "proddbuser1"
+    password: "proddbpass1"
