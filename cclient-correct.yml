@@ -1,8 +1,4 @@
 spring:
-  profiles:
-    active: "correct"
----
-spring:
   config:
     activate:
       on-profile: "correct"
